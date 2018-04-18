@@ -1,0 +1,22 @@
+2018-03-20 14:00:50.625 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取二维码
+2018-03-20 14:00:50.851 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 二维码已保存在 /media/E/AndroidStudioProjects/ShootAuth/Trunk/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-03-20 14:01:10.454 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 正在登录，请稍后
+2018-03-20 14:01:10.454 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取ptwebqq
+2018-03-20 14:01:10.604 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取vfwebqq
+2018-03-20 14:01:10.800 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取uin和psessionid
+2018-03-20 14:01:11.033 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取登录用户信息
+2018-03-20 14:01:11.182 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取好友列表
+2018-03-20 14:01:11.361 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群列表
+2018-03-20 14:01:14.484 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取讨论组列表
+2018-03-20 14:01:14.638 [Thread-5] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取最近会话列表
+2018-03-20 14:06:34.663 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群(code=3496130708)信息
+2018-03-20 14:06:34.663 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群资料
+2018-03-20 14:23:05.036 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群Android 愚公移山2群(code=1915027753)信息
+2018-03-20 14:23:05.036 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群(code=1915027753)信息
+2018-03-20 14:23:05.036 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群资料
+2018-03-20 16:31:31.325 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群(code=3496130708)信息
+2018-03-20 16:31:31.325 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群资料
+2018-03-20 16:31:34.521 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群(code=3496130708)信息
+2018-03-20 16:31:34.521 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群资料
+2018-03-20 16:31:36.285 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQClient - 获取群(code=3496130708)信息
+2018-03-20 16:31:36.285 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取群资料

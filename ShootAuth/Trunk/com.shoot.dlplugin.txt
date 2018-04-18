@@ -1,0 +1,216 @@
+[2018/04/02 04-33:41 main(1): .PluginService:27] - PluginService onCreate sIsRunningfalse
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:80] - httpcommonkey context = com.ryg.dynamicload.DLProxyService@14e88a0
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:223] - imsi==null
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:301] - getHsOwn s = [Ljava.lang.String;@b0e42fc
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:308] - getOwnMan ownMan = test_alps, ownType = test1_formem2
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:309] - getHsOwn hsmanOwn = test, hstypeOwn = test1
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:380] - writeHstypeToFile hstype.txt exists
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:174] - getPluginPackageInfo android.app.ApplicationPackageManager@7636d01
+[2018/04/02 04-33:41 main(1): .base.HttpCommonUtil:180] - getPluginPackageInfo packageName = com.shoot.dlplugin, versionCode = 9
+[2018/04/02 04-33:41 main(1): .common.CommonInfo:64] - getPluginPackageInfo android.app.ApplicationPackageManager@7636d01
+[2018/04/02 04-33:41 main(1): .common.CommonInfo:69] - getPluginPackageInfo packageName = com.shoot.dlplugin, versionCode = 9
+[2018/04/02 04-33:41 main(1): .util.CommonUtil:39] - getFirstTime firstTime = 674128
+[2018/04/02 04-33:41 main(1): .PluginService:49] - PluginService onStartCommand sIsRunningfalse
+[2018/04/02 04-33:41 main(1): .PluginService:54] - PluginService onStartCommand intent = Intent { cmp=com.shoot.lockframe.iphone/com.ryg.dynamicload.DLProxyService (has extras) }, flags = 0, startId = 1
+[2018/04/02 04-33:41 main(1): .PluginService:81] - PluginService onStartCommand map = {idTime=0, idTitle=0, iconDefaultId=0, idSlogan=0, idIcon=0, idExtra=0, layoutid=0}
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:36] - pushLayoutid :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:37] - iconId :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:38] - titleId :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:39] - desId :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:40] - timeId :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:41] - downloadImageId :0
+[2018/04/02 04-33:41 main(1): .util.EnvArgu:42] - pushStatusBar :0
+[2018/04/02 04-33:41 main(1): .condition.FileLock:57] - 文件锁是否获取成功:true
+[2018/04/02 04-33:42 main(1): .util.SilentInstall:101] - ret=====IsSupportBGInstall=======0
+[2018/04/02 04-33:42 main(1): .export.PushServiceImp:128] - 初始化initConfig
+[2018/04/02 04-33:42 main(1): .PluginService:57] - PluginService onStartCommand rs = 1
+[2018/04/02 04-33:42 Thread-6(65): .export.PushServiceImp$2:147] - 40秒休眠开始
+[2018/04/02 04-33:42 main(1): .observer.download.DownloadWorker$1:63] - 网络恢复，下载也恢复
+[2018/04/02 04-34:22 Thread-6(65): .export.PushServiceImp$2:149] - 40秒休眠结束
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:80] - httpcommonkey context = com.ryg.dynamicload.DLProxyService@14e88a0
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:223] - imsi==null
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:301] - getHsOwn s = [Ljava.lang.String;@23895fb
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:308] - getOwnMan ownMan = test_alps, ownType = test1_formem2
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:309] - getHsOwn hsmanOwn = test, hstypeOwn = test1
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:380] - writeHstypeToFile hstype.txt exists
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:174] - getPluginPackageInfo android.app.ApplicationPackageManager@7636d01
+[2018/04/02 04-34:22 Thread-6(65): .base.HttpCommonUtil:180] - getPluginPackageInfo packageName = com.shoot.dlplugin, versionCode = 9
+[2018/04/02 04-34:22 Thread-6(65): .export.PushServiceImp$2:151] - 初始化imsi,playmeid等...
+[2018/04/02 04-34:22 Thread-6(65): .export.PushServiceImp$2:155] - 网络是否正常: true
+[2018/04/02 04-34:22 Thread-6(65): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 main(1): .export.PushServiceImp$1:93] - 成功获取push配置信息
+[2018/04/02 04-34:22 main(1): .task.scheduleact.ScheduleActTimer:31] - schedule act timer refresh in 1166 minutes.
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:60] - 等待时间结束，准备发送请求获取Push消息，causeByNetwork=false
+[2018/04/02 04-34:22 task_handler(66): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:166] - cfgReq==43200000
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:168] - min==7200000
+[2018/04/02 04-34:22 task_handler(66): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 main(1): .task.silent.SilentList:163] - 静默连接排序结果
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:166] - cfgReq==43200000
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:168] - min==7200000
+[2018/04/02 04-34:22 task_handler(66): .task.PushRetrieveTask:184] - 下一次请求普通push消息在 720 分钟之后.
+[2018/04/02 04-34:22 task_handler(66): .task.silent.SilentTimerTask:53] - 准备发送请求获取Silent消息
+[2018/04/02 04-34:22 task_handler(66): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushSilentConfig [sin=3, sdi=3, sri=360, sai=30m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 task_handler(66): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushSilentConfig [sin=3, sdi=3, sri=360, sai=30m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 silentPT(68): .task.silent.SilentDownloader:131] - isFirstDownloadtrue
+[2018/04/02 04-34:22 task_handler(66): .task.silent.SilentTimerTask:135] - 下一次请求静默push消息在 360 分钟之后.
+[2018/04/02 04-34:22 task_handler(66): .task.activate.ActivateCheckTask:38] - 应用激活检查
+[2018/04/02 04-34:22 silentPT(68): .task.silent.SilentDownloader:132] - NetworkUtil.isWifiOn(context)=true
+[2018/04/02 04-34:22 main(1): .task.TaskManager:159] - isYesterday() = false
+[2018/04/02 04-34:22 main(1): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushSilentConfig [sin=3, sdi=3, sri=360, sai=30m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 main(1): .task.silent.SilentInstallHelper:115] - installCount config.getSin()=3  now=1
+[2018/04/02 04-34:22 main(1): .task.silent.SilentInstallHelper:120] - 立即静默安装
+[2018/04/02 04-34:22 main(1): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushSilentConfig [sin=3, sdi=3, sri=360, sai=30m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 main(1): .task.silent.SilentInstallHelper:115] - installCount config.getSin()=3  now=1
+[2018/04/02 04-34:22 main(1): .task.silent.SilentInstallHelper:120] - 立即静默安装
+[2018/04/02 04-34:22 main(1): .display.PushHelpImpl:86] - 消息推送模块启动
+[2018/04/02 04-34:22 main(1): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-34:22 main(1): .display.PushHelpImpl:94] - next push check in 1 minutes.
+[2018/04/02 04-34:22 main(1): .task.silent.SilentDownloader$1:51] - 网络恢复，静默下载恢复
+[2018/04/02 04-34:22 main(1): .task.silent.SilentDownloader$1:54] - wifi已经连接，尝试唤醒静默下载
+[2018/04/02 04-34:22 main(1): .task.UpdateTask$1:52] - UpdateTask action = android.net.conn.CONNECTIVITY_CHANGE, mUpdateStart = true
+[2018/04/02 04-34:22 main(1): .task.TaskManager$2:147] - registerReceiverEvent action = android.net.conn.CONNECTIVITY_CHANGE
+[2018/04/02 04-34:22 main(1): .task.TaskManager$2:148] - 网络恢复，添加NETWORK_RECOVER_PUSH_RETRIEVE任务  , delay 3 minutes.
+[2018/04/02 04-34:22 task_handler(66): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:22 task_handler(66): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:22 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:22 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:22 task_handler(66): .base.http.OkhttpUtils:100] - 请求开始,url=http://122.227.207.66:8888/api/push/getpushcfg2.json?push_ver=9
+[2018/04/02 04-34:30 task_handler(66): .base.http.OkhttpUtils:102] - 请求结束,url=http://122.227.207.66:8888/api/push/getpushcfg2.json?push_ver=9
+[2018/04/02 04-34:30 task_handler(66): .task.PushConfigTask:43] - PushConfigTask 返回config:{"actTime":"10m-7d","downIp":"122.227.207.66:8888","downHost":"122.227.207.66:8888","pushTime":{"begin":"07:00:00","end":"22:00:00"},"reqGap":720,"pushGap":120,"maxShow":1,"maxPushNum":1}
+[2018/04/02 04-34:30 task_handler(66): .task.PushConfigTask:48] - 返回config:{"actTime":"10m-7d","downIp":"122.227.207.66:8888","downHost":"122.227.207.66:8888","pushTime":{"begin":"07:00:00","end":"22:00:00"},"reqGap":720,"pushGap":120,"maxShow":1,"maxPushNum":1}
+[2018/04/02 04-34:30 task_handler(66): .task.PushConfigTask:88] - 定时更新Config信息
+[2018/04/02 04-34:30 task_handler(66): .task.UpdateTask:30] - UpateTask start. context = com.ryg.dynamicload.DLProxyService@14e88a0
+[2018/04/02 04-34:30 task_handler(66): .task.SdkSwitcherTask:45] - downloadSdkIni start.
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:267] - rootPath = /storage/emulated/0/Android/data/com.shoot.lockframe.iphone/files
+[2018/04/02 04-34:30 task_handler(66): .base.http.BaseClientFactory:155] - ------------myRetryHandler------------com.tiho.base.base.http.BaseClientFactory$1@96211fa
+[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.http.HttpHelper:68] - 连接超时:60000 ms[2018/04/02 04-34:30 task_handler(66): .base.http.HttpHelper:68] - 连接超时:60000 ms
+
+[2018/04/02 04-34:30 task_handler(66): .base.http.HttpHelper:69] - 请求超时:60000 ms[2018/04/02 04-34:30 Thread-9(73): .base.http.HttpHelper:69] - 请求超时:60000 ms
+
+[2018/04/02 04-34:30 task_handler(66): .base.http.OkhttpUtils:123] - simplePost body=={"params":[{"file_version":0,"filesize":0,"md5":"","packname":"sdkswitcher","url":""}],"time":"0"}[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:204] - http://122.227.207.66:8888/android-api/android/check_version请求md更新 , body={"params":[{"file_version":1,"filesize":0,"md5":"","packname":"com.shoot.lockframe.iphone","url":""}]}
+
+[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:123] - simplePost body=={"params":[{"file_version":1,"filesize":0,"md5":"","packname":"com.shoot.lockframe.iphone","url":""}]}
+
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 task_handler(66): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 task_handler(66): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 task_handler(66): .base.http.OkhttpUtils:141] - 响应码：404
+[2018/04/02 04-34:30 task_handler(66): .base.http.json.ParserJsonUtil:50] - http://122.227.207.66:8888/android-api/android/check_version返回结果为:null
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:141] - 响应码：404
+[2018/04/02 04-34:30 Thread-9(73): .base.http.json.ParserJsonUtil:50] - http://122.227.207.66:8888/android-api/android/check_version返回结果为:null
+[2018/04/02 04-34:30 Thread-9(73): .update.HostApkUpdate$1:38] - result = 3, obj = null
+[2018/04/02 04-34:30 Thread-9(73): .update.PushFileUpdate:45] - checkVersion pkgName = com.shoot.dlplugin
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:267] - rootPath = /data/user/0/com.shoot.lockframe.iphone/files
+[2018/04/02 04-34:30 Thread-9(73): .util.PackageUtil:420] - parsePackageVersionCode path = /data/user/0/com.shoot.lockframe.iphone/files/shootDl/dlShootPlugin.dat1512526451.tmp
+[2018/04/02 04-34:30 Thread-9(73): .util.PackageUtil:425] - parsePackageVersionCode ver = 9
+[2018/04/02 04-34:30 Thread-9(73): .update.PushFileUpdate:117] - getPluginVerCode ver = 9
+[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:204] - http://122.227.207.66:8888/android-api/android/check_version请求md更新 , body={"params":[{"file_version":9,"filesize":0,"md5":"","packname":"com.shoot.dlplugin","url":""}]}
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:123] - simplePost body=={"params":[{"file_version":9,"filesize":0,"md5":"","packname":"com.shoot.dlplugin","url":""}]}
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:141] - 响应码：404
+[2018/04/02 04-34:30 Thread-9(73): .base.http.json.ParserJsonUtil:50] - http://122.227.207.66:8888/android-api/android/check_version返回结果为:null
+[2018/04/02 04-34:30 Thread-9(73): .update.PushFileUpdate$1:55] - result = 3
+[2018/04/02 04-34:30 Thread-9(73): .update.DlCoreFileUpdate:44] - checkVersion pkgName = com.shoot.dlcore
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:267] - rootPath = /data/user/0/com.shoot.lockframe.iphone/files
+[2018/04/02 04-34:30 Thread-9(73): .util.PackageUtil:420] - parsePackageVersionCode path = /data/user/0/com.shoot.lockframe.iphone/files/shootDl/dlShootCore.dat2004405150.tmp
+[2018/04/02 04-34:30 Thread-9(73): .util.PackageUtil:425] - parsePackageVersionCode ver = 3
+[2018/04/02 04-34:30 Thread-9(73): .base.md.Md:204] - http://122.227.207.66:8888/android-api/android/check_version请求md更新 , body={"params":[{"file_version":3,"filesize":0,"md5":"","packname":"com.shoot.dlcore","url":""}]}
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:123] - simplePost body=={"params":[{"file_version":3,"filesize":0,"md5":"","packname":"com.shoot.dlcore","url":""}]}
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-34:30 Thread-9(73): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-34:30 Thread-9(73): .base.http.OkhttpUtils:141] - 响应码：404
+[2018/04/02 04-34:30 Thread-9(73): .base.http.json.ParserJsonUtil:50] - http://122.227.207.66:8888/android-api/android/check_version返回结果为:null
+[2018/04/02 04-34:30 Thread-9(73): .update.DlCoreFileUpdate$1:53] - result = 3
+[2018/04/02 04-35:22 main(1): .display.PushHelpImpl:113] - 检查push状态
+[2018/04/02 04-35:22 main(1): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-35:22 main(1): .condition.WorkTimeCondition:35] - work time check:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-35:22 main(1): .condition.WorkTimeCondition:40] - begin:07:00:00,end:22:00:00
+[2018/04/02 04-35:22 main(1): .condition.WorkTimeCondition:44] - now:04:35:22,beginTime:07:00:00.endTime:22:00:00
+[2018/04/02 04-35:22 main(1): .condition.WorkTimeCondition:52] - 是否处于工作时间中:false
+[2018/04/02 04-35:22 main(1): .display.PushHelpImpl:120] - Push时间未到，不推送
+[2018/04/02 04-35:22 main(1): .dao.impl.PushConfigFileDAOImpl:54] - file config:PushConfigBean [maxShow=1, maxPushNum=1, begin=07:00:00, end=22:00:00, reqGap=720, pushGap=120, actTime=10m-7d, downIp=122.227.207.66:8888, downHost=122.227.207.66:8888]
+[2018/04/02 04-35:56 main(1): .task.scheduleact.ScreenListener:33] - Screen ON:android.intent.action.USER_PRESENT,count=0
+[2018/04/02 04-35:56 main(1): .task.scheduleact.ScheduleActList:54] - 重置激活列表
+[2018/04/02 04-35:56 main(1): .task.scheduleact.ScheduleActList:87] - pack:com.netease.newsreader.activity,random:78 ,80
+[2018/04/02 04-35:57 main(1): .task.scheduleact.ScheduleActList:111] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2] 加入到激活列表中
+[2018/04/02 04-35:57 main(1): .task.scheduleact.ScheduleActList:76] - 重置结果:
+[2018/04/02 04-35:57 main(1): .task.scheduleact.ScheduleActList:78] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2]
+[2018/04/02 04-35:57 main(1): .task.scheduleact.ScheduleActList:161] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2]安装状态:true,次数:false,已激活:false
+[2018/04/02 04-35:57 main(1): .task.scheduleact.ScreenListener:38] - target:null
+[2018/04/02 04-36:22 task_handler(66): .base.http.OkhttpUtils:123] - simplePost body=={"params":[{"file_version":0,"filesize":0,"md5":"","packname":"SilentAuth","url":""}],"time":"1522643782499"}
+[2018/04/02 04-36:22 task_handler(66): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-36:22 task_handler(66): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-36:22 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-36:22 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-36:22 task_handler(66): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-36:22 task_handler(66): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/android-api/android/check_version
+[2018/04/02 04-36:22 task_handler(66): .base.http.OkhttpUtils:141] - 响应码：404
+[2018/04/02 04-36:22 task_handler(66): .base.http.json.ParserJsonUtil:50] - http://122.227.207.66:8888/android-api/android/check_version返回结果为:null
+[2018/04/02 04-37:22 task_handler(66): .task.PushRetrieveTask:60] - 等待时间结束，准备发送请求获取Push消息，causeByNetwork=true
+[2018/04/02 04-37:22 task_handler(66): .dao.impl.PushMessageWebRetrieve:31] - the max push_id is 0
+[2018/04/02 04-37:22 task_handler(66): .base.http.OkhttpUtils:123] - simplePost body=={"auto_install":1,"free_ram":12210012160,"free_sd":12210012160,"host_pack":"com.shoot.lockframe.iphone"}
+[2018/04/02 04-37:22 task_handler(66): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-37:22 task_handler(66): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-37:22 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-37:22 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-37:22 task_handler(66): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/api/push/getpush?id=0&push_ver=9&time=1201752
+[2018/04/02 04-37:30 task_handler(66): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/api/push/getpush?id=0&push_ver=9&time=1201752
+[2018/04/02 04-37:30 task_handler(66): .task.PushRetrieveTask:97] - Push消息返回内容:{}
+[2018/04/02 04-37:31 task_handler(66): .dao.PushDataSource:98] - 没有新消息需要保存
+[2018/04/02 04-37:31 task_handler(66): .dao.PushDataSource:114] - 没有新消息需要保存
+[2018/04/02 04-37:31 task_handler(66): .task.silent.SilentTimerTask:53] - 准备发送请求获取Silent消息
+[2018/04/02 04-37:31 task_handler(66): .base.http.OkhttpUtils:123] - simplePost body=={"auto_install":1,"free_ram":12210012160,"free_sd":12210012160,"host_pack":"com.shoot.lockframe.iphone"}
+[2018/04/02 04-37:31 task_handler(66): .base.HttpCommonUtil:89] - httpcommonkey:hsman=alps&mcc=999&level=24&screen=720x1280&lan=en&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf
+[2018/04/02 04-37:31 task_handler(66): .base.HttpCommonUtil:90] - httpcommonkey base64:aHNtYW49YWxwcyZtY2M9OTk5JmxldmVsPTI0JnNjcmVlbj03MjB4MTI4MCZsYW49ZW4mcGxheW1laWQ9TVRkL215UkRBVGpmRjVqVkZ3M01rQVJqbUVlTWNTTmY=
+[2018/04/02 04-37:31 task_handler(66): .base.HttpCommonUtil:106] - xPlayAgent:imsi=&imei=&hsman=alps&hstype=Forme M2&android=1&cellid=&we=&lan=en&wifimac=02:00:00:00:00:00&screen=720x1280&level=24&serial=0123456789ABCDEF&network=WIFI:unknown&playmeid=MTd/myRDATjfF5jVFw3MkARjmEeMcSNf&androidId=44e36befada745d5&ownMan=test_alps&ownType=test1_formem2
+[2018/04/02 04-37:31 task_handler(66): .base.HttpCommonUtil:107] - xPlayAgent base64:aW1zaT0maW1laT0maHNtYW49YWxwcyZoc3R5cGU9Rm9ybWUgTTImYW5kcm9pZD0xJmNlbGxpZD0md2U9Jmxhbj1lbiZ3aWZpbWFjPTAyOjAwOjAwOjAwOjAwOjAwJnNjcmVlbj03MjB4MTI4MCZsZXZlbD0yNCZzZXJpYWw9MDEyMzQ1Njc4OUFCQ0RFRiZuZXR3b3JrPVdJRkk6dW5rbm93biZwbGF5bWVpZD1NVGQvbXlSREFUamZGNWpWRnczTWtBUmptRWVNY1NOZiZhbmRyb2lkSWQ9NDRlMzZiZWZhZGE3NDVkNSZvd25NYW49dGVzdF9hbHBzJm93blR5cGU9dGVzdDFfZm9ybWVtMg==
+[2018/04/02 04-37:31 task_handler(66): .base.http.OkhttpUtils:135] - 请求开始,url=http://122.227.207.66:8888/api/push/getsilentpush.json?push_ver=9&time=1210075
+[2018/04/02 04-37:33 task_handler(66): .base.http.OkhttpUtils:137] - 请求结束,url=http://122.227.207.66:8888/api/push/getsilentpush.json?push_ver=9&time=1210075
+[2018/04/02 04-37:33 task_handler(66): .task.silent.SilentTimerTask:90] - Silent消息返回内容:{"silent":[{"id":678895656,"weight":5,"md5":"26c152dc3a1e1759d30245e3245b0a5d","path":"http://122.227.207.66:8888/apk/64/46/c38746b7-5311-4bce-bedd-0295cac16a07.apk","ver":797,"pack":"com.netease.newsreader.activity","timeract":"80,60,50,40,30@2","size":31307153}]}
+[2018/04/02 04-37:35 task_handler(66): .dao.impl.ScheduleActivationDAOImpl:76] - 保存激活列表:id=678895656,pack=com.netease.newsreader.activity,timeract=80,60,50,40,30@2
+[2018/04/02 04-37:35 task_handler(66): .task.silent.SilentList:90] - 静默连接排序结果
+[2018/04/02 04-37:35 task_handler(66): .task.scheduleact.ScheduleActList:54] - 重置激活列表
+[2018/04/02 04-37:35 task_handler(66): .task.scheduleact.ScheduleActList:87] - pack:com.netease.newsreader.activity,random:50 ,80
+[2018/04/02 04-37:35 task_handler(66): .task.scheduleact.ScheduleActList:111] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2] 加入到激活列表中
+[2018/04/02 04-37:35 task_handler(66): .task.scheduleact.ScheduleActList:76] - 重置结果:
+[2018/04/02 04-37:35 task_handler(66): .task.scheduleact.ScheduleActList:78] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2]
+[2018/04/02 04-41:44 main(1): .task.scheduleact.ScreenListener:33] - Screen ON:android.intent.action.USER_PRESENT,count=1
+[2018/04/02 04-41:44 main(1): .task.scheduleact.ScheduleActList:161] - ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2]安装状态:true,次数:true,已激活:false
+[2018/04/02 04-41:44 main(1): .task.scheduleact.ScreenListener:38] - target:ScheduleActivationBean [pushId=678895656, packName=com.netease.newsreader.activity, day=20180402, rate=80, count=2]
+[2018/04/02 04-41:44 main(1): .task.activate.ActivateUtil:38] - com.netease.newsreader.activity是首次激活
+[2018/04/02 04-41:44 main(1): .task.activate.ActivatedRecord:80] - 添加激活记录 com.netease.newsreader.activity,1522644104671
+[2018/04/02 04-41:44 main(1): .task.activate.ActivateUtil:46] - 上传激活日志,pack=com.netease.newsreader.activity , isSilent=true , hasNetwork=true
+[2018/04/02 04-44:22 task_handler(66): .task.activate.ActivateCheckTask:38] - 应用激活检查
+[2018/04/02 04-54:22 task_handler(66): .task.activate.ActivateCheckTask:38] - 应用激活检查

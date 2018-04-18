@@ -1,0 +1,8 @@
+2018-03-21 10:06:50.869 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 开始获取二维码
+2018-03-21 10:06:51.102 [Thread-4] INFO  com.scienjus.smartqq.client.SmartQQApi - 二维码已保存在 /media/E/AndroidStudioProjects/ShootAuth/Trunk/.idea/SmartIM/smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-03-21 10:07:50.200 [Thread-4] ERROR com.scienjus.smartqq.client.SmartQQClient - 登录失败
+java.lang.RuntimeException: 验证二维码超时
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:188)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:191)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
